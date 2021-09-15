@@ -52,30 +52,10 @@ body {
     visibility: visible;
 }
 
-.navbar {
-    visibility: collapse;
-}
-
-@media screen and (max-width: 768px) {
-    .buttonlar {
-        visibility: hidden;
-    }
-
-
-    .navbar {
-        visibility: visible;
-        position: sticky;
-        top: 0;
-    }
-
-}
-
-
-
 .header {
     width: 100%;
     height: 145vh;
-    background-image: url(/images/imageedit_1_9595062033.png);
+    background-image: url(images/imageedit_1_9595062033.png);
     display: flex;
     min-height: 500px;
     background-attachment: fixed;
