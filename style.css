@@ -1,0 +1,416 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.buttonlar {
+    position: fixed;
+}
+
+.logos {
+    width: 60px;
+    height: auto;
+    margin: 70px 30px;
+}
+
+.tultip {
+    position: relative;
+    display: inline-block;
+}
+
+.tultip .tultiptext {
+    visibility: hidden;
+    width: 120px;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border: 0px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: -90px;
+}
+
+.bsmall1,
+.bsmall2,
+.bsmall3 {
+    width: 35px;
+    height: auto;
+    margin: 10px 0px;
+    margin-left: 40px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    object-fit: scale-down;
+}
+
+.tultip:hover .tultiptext {
+    visibility: visible;
+}
+
+.navbar {
+    visibility: collapse;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonlar {
+        visibility: hidden;
+    }
+
+
+    .navbar {
+        visibility: visible;
+        position: sticky;
+        top: 0;
+    }
+
+}
+
+
+
+.header {
+    width: 100%;
+    height: 145vh;
+    background-image: url(/images/imageedit_1_9595062033.png);
+    display: flex;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    margin-top: 170px;
+    margin-left: 200px;
+    width: 800px;
+    height: 600px;
+    flex: 60%;
+}
+
+.menu-bar {
+    flex: 40%;
+    margin-top: 220px;
+}
+
+.links {
+    color: red;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#headnum {
+    font-family: 'Montserrat', sans-serif;
+    color: crimson;
+    text-decoration: underline;
+}
+
+/* 1st work */
+
+
+.sayt1help {
+    background-image: linear-gradient(rgb(250, 205, 205), rgb(250, 209, 247));
+}
+
+#sayt1 {
+    padding: 100px 200px;
+}
+
+.sayt1h6 {
+    font-size: 100px;
+    margin: 0px;
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-style: italic;
+}
+
+.sayt1h5 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: -40px 100px;
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-style: italic;
+}
+
+.sayt1h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 100px;
+    font-family: 'Cinzel', serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.rasmTosh {
+    margin: 0px;
+}
+
+.sayt1h1 {
+    background-color: cadetblue;
+    margin: 0px;
+    padding: 15px;
+    text-align: right;
+    color: white;
+    top: 0px;
+}
+
+.Tashkent {
+    width: 100%;
+    height: 400px;
+}
+
+.cityplace {
+    margin: 50px 50px 0px 100px;
+}
+
+.cityplaces {
+    width: 32%;
+    height: 300px;
+    margin-left: 10px;
+    transition: transform .2s;
+}
+
+.cityplaces:hover {
+    transform: scale(1.1);
+}
+
+/* sayt2 */
+
+#sayt2 {
+    display: flex;
+    padding: 50px 0px 50px 100px;
+    background-color: rgb(245, 205, 205);
+    background-image: linear-gradient(rgb(250, 209, 247), #ef8172);
+}
+
+.leftword {
+    flex: 25%;
+    margin: 0px 70px 0px 0px;
+    text-align: right;
+}
+
+.sayt2h6 {
+    font-size: 100px;
+    margin: 0px;
+    font-family: 'Cinzel', serif;
+    color: black;
+    text-align: left;
+}
+
+.sayt2h5 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.sayt2h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+.middlepic {
+    flex: 50%;
+}
+
+.rightword {
+    flex: 40%;
+    margin-right: 50px;
+    margin-top: 120px;
+
+}
+
+.sayt2h3 {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 25px 100px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Sayt3 */
+#sayt3 {
+    padding-top: 100px;
+    background-color: rgb(245, 248, 245);
+}
+
+.sayt3helper {
+    display: flex;
+}
+
+.h1h2 {
+    flex: 60%;
+
+}
+
+.sayt3h1 {
+    padding-left: 125px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 25px;
+
+}
+
+
+.sayt3h2 {
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+
+.sayt3h6 {
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+    padding-left: 100px;
+    color: black;
+    text-align: left;
+
+}
+
+.rightsidewords {
+    transform: rotate(0.25turn);
+    float: right;
+}
+
+sayt3helper2 {
+    display: flex;
+}
+
+#canvas {
+    border: 1px solid #a1a1a1;
+    width: 500px;
+    height: 700px;
+    transform: rotate(25deg);
+    z-index: 1;
+    margin-left: 200px;
+    flex: 50%;
+}
+
+.jstarif {
+    padding: 50px;
+    padding-top: 120px;
+    transform: rotate(-25deg);
+}
+
+.preclass {
+    flex: 50%;
+    float: right;
+    padding-right: 300px;
+    padding-top: 150px;
+}
+
+
+.jsgame {
+    margin: 50px 50px 0px 100px;
+    z-index: 2;
+    position: relative;
+    margin-top: -200px;
+}
+
+.jsgames {
+    transition: transform .2s;
+    width: 32%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.jsgames:hover {
+    transform: scale(1.1);
+}
+
+/* SAYT4 */
+#sayt4 {
+    background-color: cornflowerblue;
+    height: 800px;
+    padding-left: 100px;
+}
+
+.sayt4h1 {
+    text-align: center;
+    padding: 50px;
+    color: bisque;
+}
+
+.sayt4img {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: transform .2s;
+}
+
+.sayt4img:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+.footer-icon {
+    margin: 0px 20px 0px 0px;
+}

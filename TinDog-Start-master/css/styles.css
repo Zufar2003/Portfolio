@@ -1,0 +1,141 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+#title{
+  background-color: #ff4c68 ;
+  color : #fff;
+}
+.log {
+  font-family : 'Montserrat-Black', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+.container {
+padding: 3% 3% 8%;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold ;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-item {
+  padding:0 18
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download-button {
+  margin: 5% 8% 5% 0%
+}
+.image {
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+}
+
+h3 {
+  font-family : 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+.lalala {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.lala {
+  color:#8f8f8f;
+  padding: 7%;
+}
+.icon {
+  color:#ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color:#ef8172 ;
+}
+#features {
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+.box1 {
+  text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 15px;
+}
+.carousel-item{
+  padding: 7% 15%;
+  }
+#pricing{
+  padding: 100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .image{
+  transform: rotate(0);
+  position: static;
+}
+}
+
+.foot{
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 4rem;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-btn{
+  margin: 20px;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7%;
+
+}
+.footer-icon {
+  margin: 10px 10px 20px;
+}
+.ppp {
+color:#8f8f8f;
+}
